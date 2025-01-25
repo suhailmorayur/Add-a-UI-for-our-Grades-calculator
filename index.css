@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 2rem;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100;
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    background-color: #ffffff;
+}
+
+.heading{
+    color: rgb(28, 0, 84);
+}
+
+  #gradeform {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  
+  #gradeform input[type="text"], #gradeform input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  #gradeform button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    
+  }
+  
+  #gradeform button:hover {
+    background-color: #45a049;
+  }
+  
+
+  #result {
+    font-size: 2rem;
+    color: rgb(1, 1, 42);
+  }
+  
+  
+  #scoreError{
+color:rgb(255, 5, 5);
+font-size: large;
+  }
+
+  #nameError{
+    color:rgb(255, 5, 5);
+font-size: large;
+
+  }
