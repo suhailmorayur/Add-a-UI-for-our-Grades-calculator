@@ -67,7 +67,7 @@ if (scoreInput === '' ) {
             grade = "F";
         }
 
-        result.innerHTML = `Grade: `+ grade;
+        result.innerHTML = ` Name: ${nameInput} <br> Score: ${scoreInput} <br> Grade: ${grade}  `;
 
 
 }
