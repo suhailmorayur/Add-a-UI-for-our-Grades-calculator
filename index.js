@@ -53,6 +53,15 @@ if (scoreInput === '' ) {
         } else if (scoreInput >= 60 && scoreInput < 70) {
             grade = "B";
         }
+
+         else if (scoreInput >= 50 && scoreInput < 60) {
+            grade = "C+";
+        }
+        
+        else if (scoreInput >= 40 && scoreInput < 50) {
+            grade = "C";
+        }
+          
         
         else {
             grade = "F";
